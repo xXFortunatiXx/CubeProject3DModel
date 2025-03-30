@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ButtonInputCubes",
+      "request": "launch",
+      "mainClass": "ButtonInputCubes",
+      "projectName": "TheCube_790af4c9"
+    },
+    {
+      "type": "java",
+      "name": "TheCube",
+      "request": "launch",
+      "mainClass": "TheCube",
+      "projectName": "TheCube_790af4c9"
+    },
+    {
+      "type": "java",
+      "name": "Run TheCube",
+      "request": "launch",
+      "mainClass": "TheCube",
+      "projectName": "TheCube"
+    }
+  ]
+}

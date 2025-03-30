@@ -7,7 +7,8 @@ import java.awt.*;
 
 
 public class ButtonInputCubes {
-    static defaultCube d = new defaultCube();
+    static TheCube d = new TheCube();
+
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
@@ -94,40 +95,41 @@ public class ButtonInputCubes {
         boolean animated = true;
 
         public void U(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 96", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("U");
         }
+        
         public void D(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 99", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("D");
         }
         public void R(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 102", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("R");
         }
         public void L(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 105", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("L");
         }
         public void F(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 108", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("F");
         }
         public void B(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 111", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("B");
         }
         public void UPrime(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 114", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("U'");
         }
         public void DPrime(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 117", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("D'");
         }
         public void RPrime(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 120", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("R'");
         }
         public void LPrime(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 123", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("L'");
         }
         public void FPrime(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 126", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("F'");
         }
         public void BPrime(){
-            JOptionPane.showMessageDialog(null, "You can integrate your methods within this function definition. Line 129", "Unfinished", JOptionPane.ERROR_MESSAGE);
+            d.applyMove("B'");
         }
 
         public void firstView() {

@@ -4,7 +4,7 @@ import java.util.Scanner;
 //this is my version for the 3D model
 //========= Cube state configuration =========
 public class TheCube {
-    private char[][][] cube;
+    public  char[][][] cube;
     private int moveCount = 0;
     private ArrayList<String> moveHistory = new ArrayList<>();
     public static final String[] VALID_MOVES = {"U", "D", "R", "L", "F", "B", "U'", "D'", "R'", "L'", "F'", "B'"};
@@ -408,3 +408,6 @@ public class TheCube {
         userInput.close();
     }
 }
+
+//compile javac -d bin src/*.java
+//run java -cp bin TheCube
